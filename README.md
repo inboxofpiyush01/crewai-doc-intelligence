@@ -36,7 +36,7 @@ The QA agent never sees the original document — only the other two agents' out
 
 ```bash
 pip install -r requirements.txt
-export ANTHROPIC_API_KEY=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
+export ANTHROPIC_API_KEY=sk-ant-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 python main.py                              # runs on the included sample contract
 python main.py path/to/your_document.txt    # or your own document
