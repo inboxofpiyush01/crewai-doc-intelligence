@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Lint with ruff
+        run: ruff check src/ tests/ main.py
+
+      # Tests cover agent/task/crew CONSTRUCTION only (roles, goals, context
+      # wiring) -- no API key is needed since these tests never call
+      # crew.kickoff(), which is the only place that makes a real LLM call.
+      - name: Run unit tests
+        run: pytest tests/ -v

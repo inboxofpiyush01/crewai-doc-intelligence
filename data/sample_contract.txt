@@ -1,0 +1,62 @@
+VENDOR SERVICE AGREEMENT (SAMPLE)
+
+This Agreement is entered into between Northwind Logistics Pvt. Ltd.
+("Client") and Apex Cloud Solutions Inc. ("Vendor") for the provision of
+cloud infrastructure hosting and support services.
+
+1. TERM
+This Agreement shall commence on April 1, 2026 and continue for an initial
+term of 24 months, automatically renewing for successive 12-month periods
+unless either party provides written notice of non-renewal at least 90 days
+before the end of the then-current term.
+
+2. SERVICES
+Vendor shall provide cloud infrastructure hosting, including compute,
+storage, and network resources, with a guaranteed uptime Service Level
+Agreement (SLA) of 99.9% measured monthly. Vendor shall also provide 24/7
+technical support with a maximum response time of 4 hours for critical
+incidents and 24 hours for non-critical incidents.
+
+3. FEES
+Client shall pay Vendor a monthly fee of $48,000, invoiced on the first
+business day of each month, payable within 30 days of invoice date. Late
+payments beyond 30 days accrue interest at 1.5% per month. Fees are subject
+to an annual increase capped at 5%, effective on each anniversary of the
+Effective Date.
+
+4. SLA CREDITS
+If monthly uptime falls below 99.9%, Client is entitled to a service credit
+of 5% of that month's fee for each full percentage point of downtime below
+the SLA threshold, up to a maximum credit of 30% of the monthly fee. Service
+credits must be claimed in writing within 60 days of the relevant month-end
+or are forfeited.
+
+5. DATA SECURITY AND COMPLIANCE
+Vendor shall maintain SOC 2 Type II certification throughout the term and
+provide Client with the current certification report annually. Vendor shall
+encrypt all Client data at rest using AES-256 and in transit using TLS 1.2
+or higher. In the event of a data breach affecting Client data, Vendor must
+notify Client within 72 hours of discovery.
+
+6. TERMINATION
+Either party may terminate this Agreement for material breach if the breach
+remains uncured 30 days after written notice. Client may terminate for
+convenience with 180 days' written notice, subject to a termination fee
+equal to 3 months of the then-current monthly fee. Upon termination, Vendor
+shall provide a full export of Client data within 15 business days at no
+additional cost.
+
+7. LIMITATION OF LIABILITY
+Vendor's total liability under this Agreement, except for breaches of the
+data security obligations in Section 5, shall not exceed an amount equal to
+12 months of fees paid by Client in the preceding 12-month period. Neither
+party shall be liable for indirect, incidental, or consequential damages.
+
+8. GOVERNING LAW
+This Agreement shall be governed by the laws of the State of Delaware,
+without regard to its conflict of law provisions. Any disputes shall be
+resolved through binding arbitration in Wilmington, Delaware.
+
+Signed:
+Northwind Logistics Pvt. Ltd. -- Authorized Signatory
+Apex Cloud Solutions Inc. -- Authorized Signatory
